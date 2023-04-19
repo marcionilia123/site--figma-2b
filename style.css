@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family:'Poppins',sans-serif;
+}
 .cabecalho {
     background-color: #5E0049;
     color: white;
@@ -18,4 +20,12 @@
     display:inline-block;
     margin: 0 16px;
     font-size: 20px;
+}
+
+.cabecalho-lista-item a {
+   text-decoration: none;
+   color:white;
+}
+.escola-imagem{
+    width:25%;
 }
